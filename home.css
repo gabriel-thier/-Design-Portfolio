@@ -1,0 +1,89 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+main {
+    background-color: whitesmoke;
+    margin: auto;
+    width: 100%;
+}
+
+.banner {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: #fd6d63;
+    position: fixed;
+    width: 100%;
+}
+
+.banner-content {
+    margin: 10em 5em;
+}
+
+.banner h4 {
+    margin-bottom: 2.8em;
+} 
+
+#get-in-touch {
+    color: #f77665;
+    text-decoration: none;
+    background-color: white;
+    padding: .7em 1.3em;
+    border-radius: 4em;
+    font-weight: 700;
+}
+
+.fa-chevron-down {
+    position: relative;
+    width: 100%;
+    top: 5rem;
+    font-size: 1.3em;
+    color: white;
+}
+
+.portfolio-items {
+    background-color: whitesmoke;
+    position: relative;
+    top: 510px;
+    padding-top: 5rem;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+article {
+    margin: 2.5rem .5%;
+    display: inline-block;
+    max-width: 25%;
+    text-align: center;
+    min-width: 26rem;
+}
+
+article img {
+    width: 100%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    article {
+        margin: 2.5rem 10%;
+        max-width: 100%;
+        text-align: center;
+        min-width: 0;
+    } 
+
+    article img {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+}
